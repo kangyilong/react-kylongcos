@@ -1,0 +1,35 @@
+#con02{
+  position: relative;
+  margin: 0 auto;
+}
+.shade-box{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 50%;
+  background: rgba(0,0,0,.5);
+  transition: all .5s;
+}
+.center-box{
+  position: absolute;
+  left: 0;
+  top: 47%;
+  transform: translateY(-50%);
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+.center-list{
+  width: 48%;
+  text-align: right;
+  opacity: 1;
+  transition: all .4s;
+}
+.move-shade{
+  width: 100%;
+}
+.mone-list{
+  width: 40%;
+  opacity: 0;
+}

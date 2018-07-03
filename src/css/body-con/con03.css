@@ -1,0 +1,16 @@
+.con03-list{
+  width: 100%;
+  text-align: center;
+}
+
+.write>.move-top{
+  margin-top: 240px;
+  opacity: 0;
+}
+.write>.move-bottom{
+  margin-bottom: 240px;
+  opacity: 0;
+}
+..write>.opc{
+  opacity: 0;
+}

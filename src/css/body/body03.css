@@ -1,0 +1,99 @@
+#body03{
+  width: 100%;
+  height: 100%;
+  margin: 0px auto;
+  background-image: url(../../images/1494465964.jpg);
+  background-size: 100% 100%;
+}
+.body03-con{
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin-top: 4%;
+}
+.body03-list{
+  width: 70%;
+  height: auto;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.body03list-ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 400%;
+  transition: all .4s;
+}
+.body03list-ul>li{
+  position: relative;
+  width: 8%;
+  overflow: hidden;
+  cursor: pointer;
+}
+.body03list-ul div{
+  height: auto;
+}
+.showBox-img{
+  position: relative;
+}
+.showBox-img img{
+  width: 100%;
+}
+.showBox-p{
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  padding-left: 20px;
+  background: rgba(255,255,255,.8);
+  color: #333;
+  font-size: 16px;
+  font-weight: 500;
+  position: relative;
+  z-index: 9;
+  transition: all .3s;
+}
+.showBox-p>p{
+  margin: 0;
+}
+.hide-top, .hide-btm{
+  position: absolute;
+  left: 0;
+  width: 100%;
+  transition: all .3s;
+  overflow: hidden;
+}
+.body03list-ul .hide-top{
+  top: 0;
+  height: 0%;
+  background: rgba(0,0,0,.6);
+}
+.body03list-ul .hide-btm{
+  background: #ff9900;
+  height: 100%;
+  top: 100%;
+  z-index: -1;
+}
+.hide-top>span{
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background: #ff9900;
+  text-align: center;
+  line-height: 50px;
+  font-size: 20px;
+  color: #fff;
+}
+.body03list-ul>li:hover .hide-top{
+  height: 100%;
+}
+.body03list-ul>li:hover .hide-btm{
+  top: 0;
+}
+.body03list-ul>li:hover .showBox-p{
+  color: #fff;
+}
